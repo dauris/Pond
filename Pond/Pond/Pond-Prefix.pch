@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Pond' target in the 'Pond' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
