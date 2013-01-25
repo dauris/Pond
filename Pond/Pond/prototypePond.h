@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@interface PrototypePond : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

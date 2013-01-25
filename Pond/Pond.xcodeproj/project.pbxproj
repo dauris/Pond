@@ -7,152 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACDC8DCF16B2D84400412403 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC8DCE16B2D84400412403 /* Cocoa.framework */; };
-		ACDC8DD916B2D84400412403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDC8DD716B2D84400412403 /* InfoPlist.strings */; };
-		ACDC8DDB16B2D84400412403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC8DDA16B2D84400412403 /* main.m */; };
-		ACDC8DDF16B2D84400412403 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ACDC8DDD16B2D84400412403 /* Credits.rtf */; };
-		ACDC8DE216B2D84400412403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC8DE116B2D84400412403 /* AppDelegate.m */; };
-		ACDC8DE516B2D84500412403 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDC8DE316B2D84500412403 /* MainMenu.xib */; };
-		ACDC8DED16B2D84500412403 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC8DEC16B2D84500412403 /* SenTestingKit.framework */; };
-		ACDC8DEE16B2D84500412403 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC8DCE16B2D84400412403 /* Cocoa.framework */; };
-		ACDC8DF616B2D84500412403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDC8DF416B2D84500412403 /* InfoPlist.strings */; };
-		ACDC8DF916B2D84500412403 /* PondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC8DF816B2D84500412403 /* PondTests.m */; };
-		ACDC8E0316B2D84E00412403 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC8E0216B2D84E00412403 /* WebKit.framework */; };
+		AC9EE15716B2DEE70088381D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9EE15616B2DEE70088381D /* Cocoa.framework */; };
+		AC9EE16116B2DEE70088381D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9EE15F16B2DEE70088381D /* InfoPlist.strings */; };
+		AC9EE16316B2DEE70088381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EE16216B2DEE70088381D /* main.m */; };
+		AC9EE16716B2DEE70088381D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AC9EE16516B2DEE70088381D /* Credits.rtf */; };
+		AC9EE16A16B2DEE70088381D /* PrototypePond.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EE16916B2DEE70088381D /* PrototypePond.m */; };
+		AC9EE16D16B2DEE70088381D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9EE16B16B2DEE70088381D /* MainMenu.xib */; };
+		AC9EE17516B2DEE70088381D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9EE17416B2DEE70088381D /* SenTestingKit.framework */; };
+		AC9EE17616B2DEE70088381D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9EE15616B2DEE70088381D /* Cocoa.framework */; };
+		AC9EE17E16B2DEE70088381D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9EE17C16B2DEE70088381D /* InfoPlist.strings */; };
+		AC9EE18116B2DEE70088381D /* PondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EE18016B2DEE70088381D /* PondTests.m */; };
+		AC9EE18B16B2DEF10088381D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9EE18A16B2DEF10088381D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ACDC8DEF16B2D84500412403 /* PBXContainerItemProxy */ = {
+		AC9EE17716B2DEE70088381D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ACDC8DC116B2D84400412403 /* Project object */;
+			containerPortal = AC9EE14916B2DEE70088381D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACDC8DC916B2D84400412403;
+			remoteGlobalIDString = AC9EE15116B2DEE70088381D;
 			remoteInfo = Pond;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ACDC8DCA16B2D84400412403 /* Pond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pond.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDC8DCE16B2D84400412403 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		ACDC8DD116B2D84400412403 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		ACDC8DD216B2D84400412403 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		ACDC8DD316B2D84400412403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ACDC8DD616B2D84400412403 /* Pond-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pond-Info.plist"; sourceTree = "<group>"; };
-		ACDC8DD816B2D84400412403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ACDC8DDA16B2D84400412403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACDC8DDC16B2D84400412403 /* Pond-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pond-Prefix.pch"; sourceTree = "<group>"; };
-		ACDC8DDE16B2D84400412403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		ACDC8DE016B2D84400412403 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ACDC8DE116B2D84400412403 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACDC8DE416B2D84500412403 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		ACDC8DEB16B2D84500412403 /* PondTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PondTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDC8DEC16B2D84500412403 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		ACDC8DF316B2D84500412403 /* PondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PondTests-Info.plist"; sourceTree = "<group>"; };
-		ACDC8DF516B2D84500412403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ACDC8DF716B2D84500412403 /* PondTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PondTests.h; sourceTree = "<group>"; };
-		ACDC8DF816B2D84500412403 /* PondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PondTests.m; sourceTree = "<group>"; };
-		ACDC8E0216B2D84E00412403 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AC9EE15216B2DEE70088381D /* Pond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9EE15616B2DEE70088381D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AC9EE15916B2DEE70088381D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AC9EE15A16B2DEE70088381D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC9EE15B16B2DEE70088381D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC9EE15E16B2DEE70088381D /* Pond-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pond-Info.plist"; sourceTree = "<group>"; };
+		AC9EE16016B2DEE70088381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9EE16216B2DEE70088381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9EE16416B2DEE70088381D /* Pond-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pond-Prefix.pch"; sourceTree = "<group>"; };
+		AC9EE16616B2DEE70088381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AC9EE16816B2DEE70088381D /* PrototypePond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePond.h; sourceTree = "<group>"; };
+		AC9EE16916B2DEE70088381D /* PrototypePond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePond.m; sourceTree = "<group>"; };
+		AC9EE16C16B2DEE70088381D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC9EE17316B2DEE70088381D /* PondTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PondTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9EE17416B2DEE70088381D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC9EE17B16B2DEE70088381D /* PondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PondTests-Info.plist"; sourceTree = "<group>"; };
+		AC9EE17D16B2DEE70088381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9EE17F16B2DEE70088381D /* PondTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PondTests.h; sourceTree = "<group>"; };
+		AC9EE18016B2DEE70088381D /* PondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PondTests.m; sourceTree = "<group>"; };
+		AC9EE18A16B2DEF10088381D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACDC8DC716B2D84400412403 /* Frameworks */ = {
+		AC9EE14F16B2DEE70088381D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8E0316B2D84E00412403 /* WebKit.framework in Frameworks */,
-				ACDC8DCF16B2D84400412403 /* Cocoa.framework in Frameworks */,
+				AC9EE15716B2DEE70088381D /* Cocoa.framework in Frameworks */,
+				AC9EE18B16B2DEF10088381D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDC8DE716B2D84500412403 /* Frameworks */ = {
+		AC9EE16F16B2DEE70088381D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8DED16B2D84500412403 /* SenTestingKit.framework in Frameworks */,
-				ACDC8DEE16B2D84500412403 /* Cocoa.framework in Frameworks */,
+				AC9EE17516B2DEE70088381D /* SenTestingKit.framework in Frameworks */,
+				AC9EE17616B2DEE70088381D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACDC8DBF16B2D84400412403 = {
+		AC9EE14716B2DEE70088381D = {
 			isa = PBXGroup;
 			children = (
-				ACDC8E0216B2D84E00412403 /* WebKit.framework */,
-				ACDC8DD416B2D84400412403 /* Pond */,
-				ACDC8DF116B2D84500412403 /* PondTests */,
-				ACDC8DCD16B2D84400412403 /* Frameworks */,
-				ACDC8DCB16B2D84400412403 /* Products */,
+				AC9EE15C16B2DEE70088381D /* Pond */,
+				AC9EE17916B2DEE70088381D /* PondTests */,
+				AC9EE15516B2DEE70088381D /* Frameworks */,
+				AC9EE15316B2DEE70088381D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ACDC8DCB16B2D84400412403 /* Products */ = {
+		AC9EE15316B2DEE70088381D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DCA16B2D84400412403 /* Pond.app */,
-				ACDC8DEB16B2D84500412403 /* PondTests.octest */,
+				AC9EE15216B2DEE70088381D /* Pond.app */,
+				AC9EE17316B2DEE70088381D /* PondTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACDC8DCD16B2D84400412403 /* Frameworks */ = {
+		AC9EE15516B2DEE70088381D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DCE16B2D84400412403 /* Cocoa.framework */,
-				ACDC8DEC16B2D84500412403 /* SenTestingKit.framework */,
-				ACDC8DD016B2D84400412403 /* Other Frameworks */,
+				AC9EE18A16B2DEF10088381D /* WebKit.framework */,
+				AC9EE15616B2DEE70088381D /* Cocoa.framework */,
+				AC9EE17416B2DEE70088381D /* SenTestingKit.framework */,
+				AC9EE15816B2DEE70088381D /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ACDC8DD016B2D84400412403 /* Other Frameworks */ = {
+		AC9EE15816B2DEE70088381D /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DD116B2D84400412403 /* AppKit.framework */,
-				ACDC8DD216B2D84400412403 /* CoreData.framework */,
-				ACDC8DD316B2D84400412403 /* Foundation.framework */,
+				AC9EE15916B2DEE70088381D /* AppKit.framework */,
+				AC9EE15A16B2DEE70088381D /* CoreData.framework */,
+				AC9EE15B16B2DEE70088381D /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		ACDC8DD416B2D84400412403 /* Pond */ = {
+		AC9EE15C16B2DEE70088381D /* Pond */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DE016B2D84400412403 /* AppDelegate.h */,
-				ACDC8DE116B2D84400412403 /* AppDelegate.m */,
-				ACDC8DE316B2D84500412403 /* MainMenu.xib */,
-				ACDC8DD516B2D84400412403 /* Supporting Files */,
+				AC9EE16816B2DEE70088381D /* PrototypePond.h */,
+				AC9EE16916B2DEE70088381D /* PrototypePond.m */,
+				AC9EE16B16B2DEE70088381D /* MainMenu.xib */,
+				AC9EE15D16B2DEE70088381D /* Supporting Files */,
 			);
 			path = Pond;
 			sourceTree = "<group>";
 		};
-		ACDC8DD516B2D84400412403 /* Supporting Files */ = {
+		AC9EE15D16B2DEE70088381D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DD616B2D84400412403 /* Pond-Info.plist */,
-				ACDC8DD716B2D84400412403 /* InfoPlist.strings */,
-				ACDC8DDA16B2D84400412403 /* main.m */,
-				ACDC8DDC16B2D84400412403 /* Pond-Prefix.pch */,
-				ACDC8DDD16B2D84400412403 /* Credits.rtf */,
+				AC9EE15E16B2DEE70088381D /* Pond-Info.plist */,
+				AC9EE15F16B2DEE70088381D /* InfoPlist.strings */,
+				AC9EE16216B2DEE70088381D /* main.m */,
+				AC9EE16416B2DEE70088381D /* Pond-Prefix.pch */,
+				AC9EE16516B2DEE70088381D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ACDC8DF116B2D84500412403 /* PondTests */ = {
+		AC9EE17916B2DEE70088381D /* PondTests */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DF716B2D84500412403 /* PondTests.h */,
-				ACDC8DF816B2D84500412403 /* PondTests.m */,
-				ACDC8DF216B2D84500412403 /* Supporting Files */,
+				AC9EE17F16B2DEE70088381D /* PondTests.h */,
+				AC9EE18016B2DEE70088381D /* PondTests.m */,
+				AC9EE17A16B2DEE70088381D /* Supporting Files */,
 			);
 			path = PondTests;
 			sourceTree = "<group>";
 		};
-		ACDC8DF216B2D84500412403 /* Supporting Files */ = {
+		AC9EE17A16B2DEE70088381D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACDC8DF316B2D84500412403 /* PondTests-Info.plist */,
-				ACDC8DF416B2D84500412403 /* InfoPlist.strings */,
+				AC9EE17B16B2DEE70088381D /* PondTests-Info.plist */,
+				AC9EE17C16B2DEE70088381D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACDC8DC916B2D84400412403 /* Pond */ = {
+		AC9EE15116B2DEE70088381D /* Pond */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACDC8DFC16B2D84500412403 /* Build configuration list for PBXNativeTarget "Pond" */;
+			buildConfigurationList = AC9EE18416B2DEE70088381D /* Build configuration list for PBXNativeTarget "Pond" */;
 			buildPhases = (
-				ACDC8DC616B2D84400412403 /* Sources */,
-				ACDC8DC716B2D84400412403 /* Frameworks */,
-				ACDC8DC816B2D84400412403 /* Resources */,
+				AC9EE14E16B2DEE70088381D /* Sources */,
+				AC9EE14F16B2DEE70088381D /* Frameworks */,
+				AC9EE15016B2DEE70088381D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,78 +174,78 @@
 			);
 			name = Pond;
 			productName = Pond;
-			productReference = ACDC8DCA16B2D84400412403 /* Pond.app */;
+			productReference = AC9EE15216B2DEE70088381D /* Pond.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACDC8DEA16B2D84500412403 /* PondTests */ = {
+		AC9EE17216B2DEE70088381D /* PondTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACDC8DFF16B2D84500412403 /* Build configuration list for PBXNativeTarget "PondTests" */;
+			buildConfigurationList = AC9EE18716B2DEE70088381D /* Build configuration list for PBXNativeTarget "PondTests" */;
 			buildPhases = (
-				ACDC8DE616B2D84500412403 /* Sources */,
-				ACDC8DE716B2D84500412403 /* Frameworks */,
-				ACDC8DE816B2D84500412403 /* Resources */,
-				ACDC8DE916B2D84500412403 /* ShellScript */,
+				AC9EE16E16B2DEE70088381D /* Sources */,
+				AC9EE16F16B2DEE70088381D /* Frameworks */,
+				AC9EE17016B2DEE70088381D /* Resources */,
+				AC9EE17116B2DEE70088381D /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACDC8DF016B2D84500412403 /* PBXTargetDependency */,
+				AC9EE17816B2DEE70088381D /* PBXTargetDependency */,
 			);
 			name = PondTests;
 			productName = PondTests;
-			productReference = ACDC8DEB16B2D84500412403 /* PondTests.octest */;
+			productReference = AC9EE17316B2DEE70088381D /* PondTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACDC8DC116B2D84400412403 /* Project object */ = {
+		AC9EE14916B2DEE70088381D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Tech Guyz";
 			};
-			buildConfigurationList = ACDC8DC416B2D84400412403 /* Build configuration list for PBXProject "Pond" */;
+			buildConfigurationList = AC9EE14C16B2DEE70088381D /* Build configuration list for PBXProject "Pond" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ACDC8DBF16B2D84400412403;
-			productRefGroup = ACDC8DCB16B2D84400412403 /* Products */;
+			mainGroup = AC9EE14716B2DEE70088381D;
+			productRefGroup = AC9EE15316B2DEE70088381D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACDC8DC916B2D84400412403 /* Pond */,
-				ACDC8DEA16B2D84500412403 /* PondTests */,
+				AC9EE15116B2DEE70088381D /* Pond */,
+				AC9EE17216B2DEE70088381D /* PondTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACDC8DC816B2D84400412403 /* Resources */ = {
+		AC9EE15016B2DEE70088381D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8DD916B2D84400412403 /* InfoPlist.strings in Resources */,
-				ACDC8DDF16B2D84400412403 /* Credits.rtf in Resources */,
-				ACDC8DE516B2D84500412403 /* MainMenu.xib in Resources */,
+				AC9EE16116B2DEE70088381D /* InfoPlist.strings in Resources */,
+				AC9EE16716B2DEE70088381D /* Credits.rtf in Resources */,
+				AC9EE16D16B2DEE70088381D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDC8DE816B2D84500412403 /* Resources */ = {
+		AC9EE17016B2DEE70088381D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8DF616B2D84500412403 /* InfoPlist.strings in Resources */,
+				AC9EE17E16B2DEE70088381D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		ACDC8DE916B2D84500412403 /* ShellScript */ = {
+		AC9EE17116B2DEE70088381D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,62 +261,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACDC8DC616B2D84400412403 /* Sources */ = {
+		AC9EE14E16B2DEE70088381D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8DDB16B2D84400412403 /* main.m in Sources */,
-				ACDC8DE216B2D84400412403 /* AppDelegate.m in Sources */,
+				AC9EE16316B2DEE70088381D /* main.m in Sources */,
+				AC9EE16A16B2DEE70088381D /* PrototypePond.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDC8DE616B2D84500412403 /* Sources */ = {
+		AC9EE16E16B2DEE70088381D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC8DF916B2D84500412403 /* PondTests.m in Sources */,
+				AC9EE18116B2DEE70088381D /* PondTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ACDC8DF016B2D84500412403 /* PBXTargetDependency */ = {
+		AC9EE17816B2DEE70088381D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACDC8DC916B2D84400412403 /* Pond */;
-			targetProxy = ACDC8DEF16B2D84500412403 /* PBXContainerItemProxy */;
+			target = AC9EE15116B2DEE70088381D /* Pond */;
+			targetProxy = AC9EE17716B2DEE70088381D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACDC8DD716B2D84400412403 /* InfoPlist.strings */ = {
+		AC9EE15F16B2DEE70088381D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDC8DD816B2D84400412403 /* en */,
+				AC9EE16016B2DEE70088381D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		ACDC8DDD16B2D84400412403 /* Credits.rtf */ = {
+		AC9EE16516B2DEE70088381D /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDC8DDE16B2D84400412403 /* en */,
+				AC9EE16616B2DEE70088381D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		ACDC8DE316B2D84500412403 /* MainMenu.xib */ = {
+		AC9EE16B16B2DEE70088381D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDC8DE416B2D84500412403 /* en */,
+				AC9EE16C16B2DEE70088381D /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		ACDC8DF416B2D84500412403 /* InfoPlist.strings */ = {
+		AC9EE17C16B2DEE70088381D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDC8DF516B2D84500412403 /* en */,
+				AC9EE17D16B2DEE70088381D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ACDC8DFA16B2D84500412403 /* Debug */ = {
+		AC9EE18216B2DEE70088381D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		ACDC8DFB16B2D84500412403 /* Release */ = {
+		AC9EE18316B2DEE70088381D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Release;
 		};
-		ACDC8DFD16B2D84500412403 /* Debug */ = {
+		AC9EE18516B2DEE70088381D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -389,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		ACDC8DFE16B2D84500412403 /* Release */ = {
+		AC9EE18616B2DEE70088381D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -401,7 +401,7 @@
 			};
 			name = Release;
 		};
-		ACDC8E0016B2D84500412403 /* Debug */ = {
+		AC9EE18816B2DEE70088381D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pond.app/Contents/MacOS/Pond";
@@ -416,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		ACDC8E0116B2D84500412403 /* Release */ = {
+		AC9EE18916B2DEE70088381D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pond.app/Contents/MacOS/Pond";
@@ -434,32 +434,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACDC8DC416B2D84400412403 /* Build configuration list for PBXProject "Pond" */ = {
+		AC9EE14C16B2DEE70088381D /* Build configuration list for PBXProject "Pond" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDC8DFA16B2D84500412403 /* Debug */,
-				ACDC8DFB16B2D84500412403 /* Release */,
+				AC9EE18216B2DEE70088381D /* Debug */,
+				AC9EE18316B2DEE70088381D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACDC8DFC16B2D84500412403 /* Build configuration list for PBXNativeTarget "Pond" */ = {
+		AC9EE18416B2DEE70088381D /* Build configuration list for PBXNativeTarget "Pond" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDC8DFD16B2D84500412403 /* Debug */,
-				ACDC8DFE16B2D84500412403 /* Release */,
+				AC9EE18516B2DEE70088381D /* Debug */,
+				AC9EE18616B2DEE70088381D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		ACDC8DFF16B2D84500412403 /* Build configuration list for PBXNativeTarget "PondTests" */ = {
+		AC9EE18716B2DEE70088381D /* Build configuration list for PBXNativeTarget "PondTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDC8E0016B2D84500412403 /* Debug */,
-				ACDC8E0116B2D84500412403 /* Release */,
+				AC9EE18816B2DEE70088381D /* Debug */,
+				AC9EE18916B2DEE70088381D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACDC8DC116B2D84400412403 /* Project object */;
+	rootObject = AC9EE14916B2DEE70088381D /* Project object */;
 }

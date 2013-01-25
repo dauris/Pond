@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Tech Guyz. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PrototypePond.h"
 
-@implementation AppDelegate
+@implementation PrototypePond
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
