@@ -10,8 +10,12 @@
 #import <WebKit/WebKit.h>
 
 
-@interface PrototypePond : NSObject <NSApplicationDelegate>
+@interface PrototypePond : NSObject <NSApplicationDelegate> {
+    NSWindow *window;
+    PrototypePond *browser;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) PrototypePond *browser;
 
 @end
